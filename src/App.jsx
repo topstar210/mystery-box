@@ -60,30 +60,34 @@ function App() {
             <div className="flex justify-center text-center my-20">
               <h1 className="text-[56px] md:text-[76px] text-white max-w-[600px] font-bold">Mystery Box</h1>
             </div>
-            <div className="flex flex-wrap justify-center">
-              <div className="relative mx-6">
-                <div className="relative w-full w-[375px] pb-10">
-                  <select className="w-full p-2.5 text-gray-100 bg-transparent border border-[#009F9D] rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
+            <div className="flex justify-center">
+              <div className="md:flex">
+                <div className="relative w-[375px] pb-10 mx-6">
+                  <select className="w-[375px] p-2.5 text-gray-100 bg-transparent border border-[#009F9D] rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
                     <option className="bg-[#009F9D]">game with 2 boxes</option>
                     <option className="bg-[#009F9D]">game with 4 boxes</option>
                     <option className="bg-[#009F9D]">game with 6 boxes</option>
                     <option className="bg-[#009F9D]">game with 8 boxes</option>
                   </select>
                 </div>
-                <div className="flex justify-center">
+                <div className="relative w-[375px] pb-10 mx-6">
+                  <select className="w-[375px] p-2.5 text-gray-100 bg-transparent border border-[#009F9D] rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
+                    <option className="bg-[#009F9D]">game with 2 boxes</option>
+                    <option className="bg-[#009F9D]">game with 4 boxes</option>
+                    <option className="bg-[#009F9D]">game with 6 boxes</option>
+                    <option className="bg-[#009F9D]">game with 8 boxes</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-wrap justify-center ">
+              <div className="relative mx-6">
+                <div className="flex justify-center min-w-[366px]">
                   <img src="/images/box.png" className="mt-[66px] transform transition duration-500 hover:scale-110" alt="" />
                 </div>
               </div>
               <div className="relative mx-6">
-                <div className="relative w-full w-[375px] pb-10">
-                  <select className="w-full p-2.5 text-gray-100 bg-transparent border border-[#009F9D] rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
-                    <option className="bg-[#009F9D]">game with 2 boxes</option>
-                    <option className="bg-[#009F9D]">game with 4 boxes</option>
-                    <option className="bg-[#009F9D]">game with 6 boxes</option>
-                    <option className="bg-[#009F9D]">game with 8 boxes</option>
-                  </select>
-                </div>
-                <div className="flex justify-center">
+                <div className="flex justify-center min-w-[366px]">
                   <img src="/images/box_open.png" className=" transform transition duration-500 hover:scale-110" alt="" />
                 </div>
               </div>
